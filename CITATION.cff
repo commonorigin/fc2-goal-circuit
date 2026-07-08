@@ -8,6 +8,10 @@ authors:
     given-names: "Christopher"
 repository-code: "https://github.com/commonorigin/fc2-goal-circuit"
 license: MIT
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.21252417
+    description: "Zenodo archive of this release."
 preferred-citation:
   type: article
   title: "How the fly holds a single goal: normalization, not selection, in Drosophila FC2"

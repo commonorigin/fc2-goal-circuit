@@ -1,12 +1,14 @@
 # fc2-goal-circuit
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21252417.svg)](https://doi.org/10.5281/zenodo.21252417)
+
 Analysis code, committed result caches, and tests for the paper:
 
 **How the fly holds a single goal: normalization, not selection, in *Drosophila* FC2**
 Gioele Nanni, Christopher Lee (Common Origin).
 
 Preprint: *bioRxiv* (DOI to be added on posting).
-Archived release: *Zenodo* (DOI to be added on release).
+Archived release: *Zenodo*, https://doi.org/10.5281/zenodo.21252417
 
 The paper asks, from the connectome, what circuit produces the distant feedback inhibition
 between FC2 goal neurons, and whether FC2 *selects* one goal (a winner-take-all) or *normalizes*
