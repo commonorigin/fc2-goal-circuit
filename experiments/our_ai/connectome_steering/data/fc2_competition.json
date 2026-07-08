@@ -1,0 +1,28 @@
+{
+  "source": "Two-cue competition test: uniform (any form) preserves the ratio, a local selector distorts it, \u00a73.5",
+  "input_ratio": 0.7,
+  "cand_sep_deg": 120.0,
+  "uniform_form_logdev": {
+    "divisive": 0.002597683453832797,
+    "subtractive": 0.0011916357669480434,
+    "excitatory": 0.007984138806700465
+  },
+  "uniform_forms_max_logdev": 0.007984138806700465,
+  "nonuniformity_logdev": {
+    "0.00": 3.33066907387547e-16,
+    "0.10": 0.03398349886340488,
+    "0.20": 0.0658955140605742,
+    "0.30": 0.09600454287439586,
+    "0.50": 0.15163613270619614,
+    "1.00": 0.27021353223421485
+  },
+  "nonuniformity_break_alpha": 0.5,
+  "real_inh_w_bearing_modulation": 0.03954507417173083,
+  "selector_control_logdev": 20.911058411598045,
+  "separation_selector_over_uniform": 2619.0750083213766,
+  "thresholds": {
+    "preserve_max_logdev": 0.1,
+    "selector_min_logdev": 1.0
+  },
+  "note": "discriminator is UNIFORM-vs-LOCAL: preservation shows FB5A is global (C2), robust to sign/form; it does NOT alone prove a normalizer"
+}

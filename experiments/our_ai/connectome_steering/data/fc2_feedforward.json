@@ -1,0 +1,69 @@
+{
+  "source": "Feedforward max-selection test: sweep the sharpening exponent p; no WTA via the [.]^p route. \u00a73.5",
+  "power_sweep": [
+    1.0,
+    2.0,
+    3.0,
+    5.0,
+    8.0,
+    12.0,
+    20.0,
+    30.0
+  ],
+  "operating_point_power": 2.0,
+  "equal_goals_sweep": {
+    "1": {
+      "loser_mass_frac": 0.4837598147640362,
+      "init_spread_pct": 4.681033338727048e-10
+    },
+    "2": {
+      "loser_mass_frac": 0.45378776356140926,
+      "init_spread_pct": 4.872435788172425e-10
+    },
+    "3": {
+      "loser_mass_frac": 0.39128768013838316,
+      "init_spread_pct": 3.04867242562068e-10
+    },
+    "5": {
+      "loser_mass_frac": 0.2740134087838348,
+      "init_spread_pct": 0.0
+    },
+    "8": {
+      "loser_mass_frac": 0.13894932323449088,
+      "init_spread_pct": 0.0
+    },
+    "12": {
+      "loser_mass_frac": 0.04694128704778386,
+      "init_spread_pct": 0.0
+    },
+    "20": {
+      "loser_mass_frac": 0.004088270496241057,
+      "init_spread_pct": 0.0
+    },
+    "30": {
+      "loser_mass_frac": 0.00016527669858487623,
+      "init_spread_pct": 0.0
+    }
+  },
+  "stronger_goal_winnerA_frac": {
+    "1": 0.5871028577274969,
+    "2": 0.5956841018505694,
+    "3": 0.6024735254773338,
+    "5": 0.6112270199217641,
+    "8": 0.6120603279929128,
+    "12": 0.5994237181051598,
+    "20": 0.5485699906369744,
+    "30": 0.4615709043154507
+  },
+  "corepresentation_loser_frac_at_P0": 0.45378776356140926,
+  "first_collapse_power": 12.0,
+  "init_spread_max_pct": 4.872435788172425e-10,
+  "stronger_goal_winnerA_at_P0": 0.5956841018505694,
+  "stronger_goal_winnerA_at_maxp": 0.4615709043154507,
+  "thresholds": {
+    "collapse_frac": 0.05,
+    "corep_frac": 0.25,
+    "init_eps_pct": 1.0
+  },
+  "note": "At P0 both goals co-represented; collapse only at p>>P0 and is init-INDEPENDENT (bias, not choice) and does not track the stronger goal -> no feedforward WTA at any exponent."
+}

@@ -1,0 +1,513 @@
+{
+  "source": "FlyWire proofread_connections_783: FC2 upstream input map + per-cell targeting, \u00a73.5",
+  "n_fc2": 85,
+  "total_input_syn": 78193.0,
+  "typed_coverage": 0.9999616333942936,
+  "n_presynaptic_types": 287,
+  "category_fractions": {
+    "FB_tangential_broad": 0.5454452444592227,
+    "recurrence": 0.366567339787449,
+    "PFN_directional": 0.05322727098333611,
+    "other": 0.0347601447699922
+  },
+  "n_mbon_in_brain": 96,
+  "mbon_direct_frac": 0.0,
+  "top_inputs": {
+    "FB5A": {
+      "syn": 7741.0,
+      "pct": 9.899863159106314,
+      "category": "FB_tangential_broad"
+    },
+    "hDeltaJ": {
+      "syn": 4801.0,
+      "pct": 6.139935799879785,
+      "category": "recurrence"
+    },
+    "hDeltaH": {
+      "syn": 3142.0,
+      "pct": 4.018262504316243,
+      "category": "recurrence"
+    },
+    "hDeltaG": {
+      "syn": 3087.0,
+      "pct": 3.9479237271878556,
+      "category": "recurrence"
+    },
+    "hDeltaC": {
+      "syn": 2855.0,
+      "pct": 3.651221976391749,
+      "category": "recurrence"
+    },
+    "hDeltaL": {
+      "syn": 2609.0,
+      "pct": 3.3366158095993246,
+      "category": "recurrence"
+    },
+    "PFNm": {
+      "syn": 2124.0,
+      "pct": 2.7163556840126355,
+      "category": "PFN_directional"
+    },
+    "FB2M": {
+      "syn": 2046.0,
+      "pct": 2.6166025091760132,
+      "category": "FB_tangential_broad"
+    },
+    "PFNp": {
+      "syn": 1955.0,
+      "pct": 2.500223805199954,
+      "category": "PFN_directional"
+    },
+    "vDeltaG,vDeltaH": {
+      "syn": 1585.0,
+      "pct": 2.0270356681544386,
+      "category": "recurrence"
+    },
+    "hDeltaE": {
+      "syn": 1509.0,
+      "pct": 1.9298402670315757,
+      "category": "recurrence"
+    },
+    "FB4N": {
+      "syn": 1480.0,
+      "pct": 1.8927525481820624,
+      "category": "FB_tangential_broad"
+    },
+    "FB2F_b": {
+      "syn": 1398.0,
+      "pct": 1.787883825917921,
+      "category": "FB_tangential_broad"
+    },
+    "vDeltaI_a": {
+      "syn": 1398.0,
+      "pct": 1.787883825917921,
+      "category": "recurrence"
+    },
+    "hDeltaF": {
+      "syn": 1396.0,
+      "pct": 1.7853260522041614,
+      "category": "recurrence"
+    }
+  },
+  "per_type_targeting": {
+    "FB5A": {
+      "n_cells": 4,
+      "conc_mean": 0.20381629452668465,
+      "conc_med": 0.20977602018401925,
+      "ntgt_med": 84.0,
+      "syn": 7741.0,
+      "pct": 9.899863159106314,
+      "category": "FB_tangential_broad"
+    },
+    "hDeltaJ": {
+      "n_cells": 30,
+      "conc_mean": 0.9243298652185439,
+      "conc_med": 0.9643716744091737,
+      "ntgt_med": 13.0,
+      "syn": 4801.0,
+      "pct": 6.139935799879785,
+      "category": "recurrence"
+    },
+    "hDeltaH": {
+      "n_cells": 8,
+      "conc_mean": 0.8735736193218175,
+      "conc_med": 0.8744342201885138,
+      "ntgt_med": 20.5,
+      "syn": 3142.0,
+      "pct": 4.018262504316243,
+      "category": "recurrence"
+    },
+    "hDeltaG": {
+      "n_cells": 8,
+      "conc_mean": 0.8929008677087755,
+      "conc_med": 0.9271530610864976,
+      "ntgt_med": 26.5,
+      "syn": 3087.0,
+      "pct": 3.9479237271878556,
+      "category": "recurrence"
+    },
+    "hDeltaC": {
+      "n_cells": 21,
+      "conc_mean": 0.9106596258082178,
+      "conc_med": 0.9104265834591071,
+      "ntgt_med": 15.0,
+      "syn": 2855.0,
+      "pct": 3.651221976391749,
+      "category": "recurrence"
+    },
+    "hDeltaL": {
+      "n_cells": 12,
+      "conc_mean": 0.908604375077529,
+      "conc_med": 0.931575072854242,
+      "ntgt_med": 18.0,
+      "syn": 2609.0,
+      "pct": 3.3366158095993246,
+      "category": "recurrence"
+    },
+    "PFNm": {
+      "n_cells": 55,
+      "conc_mean": 0.9580113782215389,
+      "conc_med": 0.971652765569324,
+      "ntgt_med": 10.0,
+      "syn": 2124.0,
+      "pct": 2.7163556840126355,
+      "category": "PFN_directional"
+    },
+    "FB2M": {
+      "n_cells": 6,
+      "conc_mean": 0.21841302190104459,
+      "conc_med": 0.2025987812288954,
+      "ntgt_med": 39.5,
+      "syn": 2046.0,
+      "pct": 2.6166025091760132,
+      "category": "FB_tangential_broad"
+    },
+    "PFNp": {
+      "n_cells": 13,
+      "conc_mean": 0.9448583552353877,
+      "conc_med": 0.9515509967294263,
+      "ntgt_med": 8.0,
+      "syn": 1955.0,
+      "pct": 2.500223805199954,
+      "category": "PFN_directional"
+    },
+    "vDeltaG,vDeltaH": {
+      "n_cells": 19,
+      "conc_mean": 0.8443250434034258,
+      "conc_med": 0.8336666883069321,
+      "ntgt_med": 15.0,
+      "syn": 1585.0,
+      "pct": 2.0270356681544386,
+      "category": "recurrence"
+    },
+    "hDeltaE": {
+      "n_cells": 8,
+      "conc_mean": 0.9072321727214158,
+      "conc_med": 0.9372841957564193,
+      "ntgt_med": 14.0,
+      "syn": 1509.0,
+      "pct": 1.9298402670315757,
+      "category": "recurrence"
+    },
+    "FB4N": {
+      "n_cells": 2,
+      "conc_mean": 0.15110777079279653,
+      "conc_med": 0.15110777079279653,
+      "ntgt_med": 69.5,
+      "syn": 1480.0,
+      "pct": 1.8927525481820624,
+      "category": "FB_tangential_broad"
+    },
+    "FB2F_b": {
+      "n_cells": 4,
+      "conc_mean": 0.2622692388275675,
+      "conc_med": 0.26514508330624564,
+      "ntgt_med": 60.0,
+      "syn": 1398.0,
+      "pct": 1.787883825917921,
+      "category": "FB_tangential_broad"
+    },
+    "vDeltaI_a": {
+      "n_cells": 17,
+      "conc_mean": 0.8555001606559036,
+      "conc_med": 0.835629631665032,
+      "ntgt_med": 12.0,
+      "syn": 1398.0,
+      "pct": 1.787883825917921,
+      "category": "recurrence"
+    },
+    "hDeltaF": {
+      "n_cells": 8,
+      "conc_mean": 0.873544825828068,
+      "conc_med": 0.8654186205696737,
+      "ntgt_med": 20.5,
+      "syn": 1396.0,
+      "pct": 1.7853260522041614,
+      "category": "recurrence"
+    },
+    "FB5AB": {
+      "n_cells": 2,
+      "conc_mean": 0.2620028935215817,
+      "conc_med": 0.2620028935215817,
+      "ntgt_med": 57.5,
+      "syn": 1364.0,
+      "pct": 1.7444016727840088,
+      "category": "FB_tangential_broad"
+    },
+    "FB5W": {
+      "n_cells": 6,
+      "conc_mean": 0.38278684308653416,
+      "conc_med": 0.2595630188346714,
+      "ntgt_med": 33.0,
+      "syn": 1343.0,
+      "pct": 1.7175450487895336,
+      "category": "FB_tangential_broad"
+    },
+    "FB7G,FB7I": {
+      "n_cells": 12,
+      "conc_mean": 0.20163154512051218,
+      "conc_med": 0.1763392098771672,
+      "ntgt_med": 37.0,
+      "syn": 1335.0,
+      "pct": 1.7073139539344955,
+      "category": "FB_tangential_broad"
+    },
+    "FB4X": {
+      "n_cells": 2,
+      "conc_mean": 0.22268634775084326,
+      "conc_med": 0.22268634775084326,
+      "ntgt_med": 48.5,
+      "syn": 1305.0,
+      "pct": 1.6689473482281023,
+      "category": "FB_tangential_broad"
+    },
+    "hDeltaM": {
+      "n_cells": 8,
+      "conc_mean": 0.8655839800117098,
+      "conc_med": 0.8942685431397692,
+      "ntgt_med": 17.5,
+      "syn": 1279.0,
+      "pct": 1.6356962899492282,
+      "category": "recurrence"
+    },
+    "vDeltaF": {
+      "n_cells": 19,
+      "conc_mean": 0.858302792357864,
+      "conc_med": 0.8787862438165476,
+      "ntgt_med": 12.0,
+      "syn": 1094.0,
+      "pct": 1.3991022214264703,
+      "category": "recurrence"
+    },
+    "FB2F_c": {
+      "n_cells": 4,
+      "conc_mean": 0.24335051293974513,
+      "conc_med": 0.2622800146183021,
+      "ntgt_med": 58.5,
+      "syn": 1027.0,
+      "pct": 1.3134168020155257,
+      "category": "FB_tangential_broad"
+    },
+    "FB2G": {
+      "n_cells": 4,
+      "conc_mean": 0.1832234231345021,
+      "conc_med": 0.17330728784641142,
+      "ntgt_med": 65.0,
+      "syn": 888.0,
+      "pct": 1.1356515289092375,
+      "category": "FB_tangential_broad"
+    },
+    "FB2J_a,FB2J_c": {
+      "n_cells": 5,
+      "conc_mean": 0.3090078406315556,
+      "conc_med": 0.346248111084796,
+      "ntgt_med": 28.0,
+      "syn": 873.0,
+      "pct": 1.1164682260560408,
+      "category": "FB_tangential_broad"
+    },
+    "FB5O": {
+      "n_cells": 3,
+      "conc_mean": 0.24410692610936824,
+      "conc_med": 0.2541979679874971,
+      "ntgt_med": 44.0,
+      "syn": 866.0,
+      "pct": 1.1075160180578825,
+      "category": "FB_tangential_broad"
+    },
+    "hDeltaD": {
+      "n_cells": 8,
+      "conc_mean": 0.9139126007986029,
+      "conc_med": 0.9445042853521428,
+      "ntgt_med": 10.5,
+      "syn": 841.0,
+      "pct": 1.0755438466358882,
+      "category": "recurrence"
+    },
+    "FB6E": {
+      "n_cells": 2,
+      "conc_mean": 0.3153554946585442,
+      "conc_med": 0.3153554946585442,
+      "ntgt_med": 45.0,
+      "syn": 817.0,
+      "pct": 1.0448505620707735,
+      "category": "FB_tangential_broad"
+    },
+    "FB5Y": {
+      "n_cells": 4,
+      "conc_mean": 0.2215083794242955,
+      "conc_med": 0.2361147878949581,
+      "ntgt_med": 51.5,
+      "syn": 813.0,
+      "pct": 1.0397350146432545,
+      "category": "FB_tangential_broad"
+    },
+    "FB2G_a": {
+      "n_cells": 2,
+      "conc_mean": 0.24825654267439168,
+      "conc_med": 0.24825654267439168,
+      "ntgt_med": 47.5,
+      "syn": 808.0,
+      "pct": 1.0333405803588556,
+      "category": "FB_tangential_broad"
+    },
+    "FB6F": {
+      "n_cells": 2,
+      "conc_mean": 0.1448736331526569,
+      "conc_med": 0.1448736331526569,
+      "ntgt_med": 56.0,
+      "syn": 738.0,
+      "pct": 0.9438185003772717,
+      "category": "FB_tangential_broad"
+    },
+    "FB8A,FB8H": {
+      "n_cells": 9,
+      "conc_mean": 0.2949718853918516,
+      "conc_med": 0.2889895318363868,
+      "ntgt_med": 21.0,
+      "syn": 670.0,
+      "pct": 0.8568541941094472,
+      "category": "FB_tangential_broad"
+    },
+    "FB5C": {
+      "n_cells": 3,
+      "conc_mean": 0.21293347834868204,
+      "conc_med": 0.22379663103941655,
+      "ntgt_med": 42.0,
+      "syn": 618.0,
+      "pct": 0.790352077551699,
+      "category": "FB_tangential_broad"
+    },
+    "FB6C": {
+      "n_cells": 9,
+      "conc_mean": 0.19683156342529134,
+      "conc_med": 0.1554762013488041,
+      "ntgt_med": 31.0,
+      "syn": 614.0,
+      "pct": 0.7852365301241799,
+      "category": "FB_tangential_broad"
+    },
+    "FB6W": {
+      "n_cells": 2,
+      "conc_mean": 0.24229681088260568,
+      "conc_med": 0.24229681088260568,
+      "ntgt_med": 38.5,
+      "syn": 609.0,
+      "pct": 0.778842095839781,
+      "category": "FB_tangential_broad"
+    },
+    "FB2C": {
+      "n_cells": 6,
+      "conc_mean": 0.27338302144744864,
+      "conc_med": 0.2694452601917282,
+      "ntgt_med": 29.0,
+      "syn": 591.0,
+      "pct": 0.7558221324159452,
+      "category": "FB_tangential_broad"
+    },
+    "FB6U": {
+      "n_cells": 3,
+      "conc_mean": 0.3321776642925072,
+      "conc_med": 0.15472697161529492,
+      "ntgt_med": 31.0,
+      "syn": 574.0,
+      "pct": 0.7340810558489891,
+      "category": "FB_tangential_broad"
+    },
+    "FB6R": {
+      "n_cells": 4,
+      "conc_mean": 0.1755568982797483,
+      "conc_med": 0.16290310179254175,
+      "ntgt_med": 47.0,
+      "syn": 574.0,
+      "pct": 0.7340810558489891,
+      "category": "FB_tangential_broad"
+    },
+    "FB4O": {
+      "n_cells": 6,
+      "conc_mean": 0.18238597708070858,
+      "conc_med": 0.16866785909202325,
+      "ntgt_med": 31.0,
+      "syn": 572.0,
+      "pct": 0.7315232821352295,
+      "category": "FB_tangential_broad"
+    },
+    "FB7L": {
+      "n_cells": 6,
+      "conc_mean": 0.24299297959993357,
+      "conc_med": 0.22997294786538158,
+      "ntgt_med": 30.5,
+      "syn": 541.0,
+      "pct": 0.6918777895719566,
+      "category": "FB_tangential_broad"
+    },
+    "CB4171": {
+      "n_cells": 5,
+      "conc_mean": 0.20623158111376821,
+      "conc_med": 0.2335150245460785,
+      "ntgt_med": 20.0,
+      "syn": 520.0,
+      "pct": 0.6650211655774814,
+      "category": "other"
+    }
+  },
+  "fb5a_percell": {
+    "n_cells": 4,
+    "conc_mean": 0.20381629452668465,
+    "conc_med": 0.20977602018401925,
+    "ntgt_med": 84.0,
+    "syn": 7741.0,
+    "pct": 9.899863159106314,
+    "category": "FB_tangential_broad"
+  },
+  "pfn_percell_conc_mean": 0.9616018811493752,
+  "narrow_directional_types": [
+    "PFNm",
+    "PFNp",
+    "hDeltaC",
+    "hDeltaD",
+    "hDeltaE",
+    "hDeltaF",
+    "hDeltaG",
+    "hDeltaH",
+    "hDeltaJ",
+    "hDeltaL",
+    "hDeltaM",
+    "vDeltaF",
+    "vDeltaG,vDeltaH",
+    "vDeltaI_a"
+  ],
+  "broad_normalizer_types": [
+    "CB4171",
+    "FB2C",
+    "FB2F_b",
+    "FB2F_c",
+    "FB2G",
+    "FB2G_a",
+    "FB2J_a,FB2J_c",
+    "FB2M",
+    "FB4N",
+    "FB4O",
+    "FB4X",
+    "FB5A",
+    "FB5AB",
+    "FB5C",
+    "FB5O",
+    "FB5W",
+    "FB5Y",
+    "FB6C",
+    "FB6E",
+    "FB6F",
+    "FB6R",
+    "FB6U",
+    "FB6W",
+    "FB7G,FB7I",
+    "FB7L",
+    "FB8A,FB8H"
+  ],
+  "thresholds": {
+    "narrow_conc": 0.8,
+    "broad_conc": 0.4,
+    "min_cell_syn": 20
+  }
+}

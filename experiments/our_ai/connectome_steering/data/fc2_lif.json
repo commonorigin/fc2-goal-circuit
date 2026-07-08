@@ -1,0 +1,18 @@
+{
+  "source": "Committed LIF spiking model of FC2+FB5A under the seeded-basin test: spiking does not latch (\u00a73.5)",
+  "n_fc2": 85,
+  "basin_gap_deg": 0.0026308578285944607,
+  "mean_settled_rate": 2.558717961995755,
+  "thresholds": {
+    "max_gap_deg": 30.0
+  },
+  "params": {
+    "tau_m": 20.0,
+    "tau_s": 30.0,
+    "g_inh": 6.0,
+    "drive_gain": 2.2,
+    "v_th": 1.0,
+    "T": 600
+  },
+  "note": "Real LIF (threshold/reset/leak) + connectome FB5A global-inhibition feedback; seeded-basin gap ~0deg => spike timing does not rescue a WTA. Confirms the rate result from a spiking model."
+}

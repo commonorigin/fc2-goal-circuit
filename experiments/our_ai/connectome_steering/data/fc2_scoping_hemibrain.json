@@ -1,0 +1,59 @@
+{
+  "source": "Hemibrain v1.2 (Scheffer 2020): cross-connectome replication of C2/C3, \u00a73.5",
+  "brain": "hemibrain",
+  "n_fc2": 88,
+  "n_fb5a": 4,
+  "n_hdelta": 190,
+  "n_vdelta": 408,
+  "n_columns": 9,
+  "bearing_bin_centers_deg": [
+    14.999999999999998,
+    45.0,
+    74.99999999999999,
+    105.0,
+    135.0,
+    165.0
+  ],
+  "fb5a_reaches": 88,
+  "inh_corr_raw": 0.3546258395495097,
+  "inh_corr_completeness_normalized": 0.1454756601565884,
+  "completeness_corr": 0.9318233103528011,
+  "loop_profile": [
+    1417.1330749354006,
+    1406.020905923345,
+    1402.9668604651163,
+    NaN,
+    1400.1476744186045,
+    1407.010465116279
+  ],
+  "loop_modulation": 0.012075022591185617,
+  "ff_offdiag_mean": 0.29310344827586204,
+  "hdelta_profile": [
+    101.87596899224806,
+    61.93437862950058,
+    19.227906976744187,
+    NaN,
+    68.65290697674419,
+    247.45581395348836
+  ],
+  "hdelta_near": 101.87596899224806,
+  "hdelta_far": 247.45581395348836,
+  "hdelta_far_near_ratio": 2.4289910211535535,
+  "vdelta_profile": [
+    11.39922480620155,
+    8.851335656213704,
+    3.020348837209302,
+    NaN,
+    0.6348837209302326,
+    0.0686046511627907
+  ],
+  "vdelta_peak_frac_of_hdelta": 0.046065698049608736,
+  "thresholds": {
+    "bearing_corr_max": 0.15,
+    "uniform_max_modulation": 0.15,
+    "ff_negligible_max": 1.0,
+    "antilocal_min_ratio": 1.5,
+    "vdelta_max_frac": 0.5,
+    "completeness_corr_min": 0.5
+  }
+}

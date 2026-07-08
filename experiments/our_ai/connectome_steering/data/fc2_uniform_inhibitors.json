@@ -1,0 +1,119 @@
+{
+  "source": "FC2 uniform-input scan by transmitter: distributed global-inhibition substrate, FB5A the largest GABA member (\u00a73.5)",
+  "n_fc2": 85,
+  "coverage_min": 0.5,
+  "inhibitory_capable_nts": [
+    "gaba",
+    "glutamate"
+  ],
+  "n_uniform_types": 64,
+  "uniform_mass_by_nt": {
+    "acetylcholine": 32543,
+    "dopamine": 482,
+    "gaba": 7741,
+    "glutamate": 26087
+  },
+  "uniform_inhib_capable_frac": 0.5060057140292882,
+  "uniform_excitatory_ach_frac": 0.48678443749719535,
+  "uniform_type_counts_by_nt": {
+    "acetylcholine": 21,
+    "dopamine": 2,
+    "gaba": 1,
+    "glutamate": 40
+  },
+  "fb5a": {
+    "rank_by_uniform_x_inhib": 2,
+    "total_syn": 7741,
+    "fc2_coverage": 1.0,
+    "top_nt": "gaba",
+    "nt_conf": 0.7875664359259752,
+    "share_of_uniform_mass": 0.11579136314002364,
+    "is_only_gaba_uniform": true,
+    "is_largest_uniform": true
+  },
+  "top10_uniform_inhibitory": [
+    {
+      "cell_type": "FB2G",
+      "n_pre": 4,
+      "total_syn": 888,
+      "fc2_coverage": 0.9529411764705882,
+      "top_nt": "glutamate",
+      "nt_conf": 0.8893656021415332
+    },
+    {
+      "cell_type": "FB5A",
+      "n_pre": 4,
+      "total_syn": 7741,
+      "fc2_coverage": 1.0,
+      "top_nt": "gaba",
+      "nt_conf": 0.7875664359259752
+    },
+    {
+      "cell_type": "FB2F_c",
+      "n_pre": 4,
+      "total_syn": 1027,
+      "fc2_coverage": 0.9058823529411765,
+      "top_nt": "glutamate",
+      "nt_conf": 0.8645218962346467
+    },
+    {
+      "cell_type": "FB2F_b",
+      "n_pre": 4,
+      "total_syn": 1398,
+      "fc2_coverage": 0.8705882352941177,
+      "top_nt": "glutamate",
+      "nt_conf": 0.806435557698191
+    },
+    {
+      "cell_type": "FB5Y",
+      "n_pre": 4,
+      "total_syn": 813,
+      "fc2_coverage": 0.7411764705882353,
+      "top_nt": "glutamate",
+      "nt_conf": 0.9320415429797086
+    },
+    {
+      "cell_type": "FB2M",
+      "n_pre": 6,
+      "total_syn": 2046,
+      "fc2_coverage": 0.7764705882352941,
+      "top_nt": "glutamate",
+      "nt_conf": 0.8835208485693816
+    },
+    {
+      "cell_type": "FB7G,FB7I",
+      "n_pre": 12,
+      "total_syn": 1335,
+      "fc2_coverage": 0.7764705882352941,
+      "top_nt": "glutamate",
+      "nt_conf": 0.8689422463053474
+    },
+    {
+      "cell_type": "FB6F",
+      "n_pre": 2,
+      "total_syn": 738,
+      "fc2_coverage": 0.7176470588235294,
+      "top_nt": "glutamate",
+      "nt_conf": 0.9302965978404811
+    },
+    {
+      "cell_type": "FB5Q",
+      "n_pre": 4,
+      "total_syn": 209,
+      "fc2_coverage": 0.7647058823529411,
+      "top_nt": "glutamate",
+      "nt_conf": 0.8205488792164427
+    },
+    {
+      "cell_type": "FB2G_a",
+      "n_pre": 2,
+      "total_syn": 808,
+      "fc2_coverage": 0.6352941176470588,
+      "top_nt": "glutamate",
+      "nt_conf": 0.9321900772880449
+    }
+  ],
+  "fb_tangential_known_gaba": 14,
+  "fb_tangential_known_gaba_negative": 371,
+  "note": "FB5A is the largest single uniform input to FC2 and the only GABA-predicted one, but a large glutamatergic FB-tangential family supplies most inhibitory-capable uniform drive -> the normalizer computation is distributed and robust to FB5A's transmitter. The uniform input is ~half inhibitory-capable / ~half cholinergic, so the NET uniform sign needs FC2 receptor data."
+}

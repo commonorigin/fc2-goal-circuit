@@ -1,0 +1,43 @@
+{
+  "source": "FC2 upstream goal-substrate nomination + Lanz hDeltaK-PFG exclusion (\u00a73.5)",
+  "n_fc2": 85,
+  "total_input_syn": 78193.0,
+  "input_composition": {
+    "FB_tangential_broad": 0.5454452444592227,
+    "hDelta_recurrent_directional": 0.366567339787449,
+    "PFN_directional": 0.05322727098333611,
+    "other": 0.0347601447699922
+  },
+  "directional_hdelta_frac": 0.27992275523384447,
+  "pfn_frac": 0.05322727098333611,
+  "fb_tangential_broad_frac": 0.5454452444592227,
+  "hdeltaJ_frac": 0.061399357998797845,
+  "hdeltaC_frac": 0.03651221976391748,
+  "percell_conc": {
+    "hDeltaC": 0.9104265834591071,
+    "hDeltaJ": 0.9643716744091737,
+    "PFNm": 0.971652765569324,
+    "FB5A": 0.20977602018401925
+  },
+  "hdeltaK_into_fc2_frac": 0.0006905989027150768,
+  "pfg_into_fc2_frac": 0.0011254204340541993,
+  "mbon_into_fc2_frac": 0.0,
+  "fb5ab_into_fc2_frac": 0.017444016727840087,
+  "fb5ab_into_hdeltaC_frac": 0.06917375789184738,
+  "mbon_into_fb5ab_frac": 0.05110220440881764,
+  "mbon_into_hdeltaC_frac": 0.0,
+  "hdelta_within_class_recurrence_frac": 0.09745946343736968,
+  "hdeltaK_output_top_targets": {
+    "PFGs": 0.4094292803970223,
+    "FB6A": 0.1779894037958554,
+    "FB6A_c": 0.17544094963449802,
+    "FB6D": 0.09275031855677017,
+    "ExR3": 0.07082019985245791,
+    "hDeltaK": 0.012943464556367782
+  },
+  "hdeltaK_output_to_fc2_frac": 0.003621487492455234,
+  "thresholds": {
+    "exclude_max_frac": 0.003
+  },
+  "note": "hDelta recurrent network (hDeltaC-led, hDeltaJ vector-injection) is FC2's directional goal substrate; the Lanz hDeltaK-PFG attractor is excluded (<0.2% into FC2, PFL-facing). Valence enters via MBON->FB5AB->{hDeltaC,FC2}. Nomination, not proof: persistence/gating need physiology."
+}

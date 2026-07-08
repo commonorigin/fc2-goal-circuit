@@ -1,0 +1,58 @@
+{
+  "source": "FlyWire proofread_connections_783: C2 (FB5A uniform-across-bearing) + C3 (no local recurrence), \u00a73.5",
+  "n_fc2": 85,
+  "n_fb5a": 4,
+  "n_hdelta": 189,
+  "n_vdelta": 391,
+  "bearing_bin_centers_deg": [
+    14.999999999999998,
+    45.0,
+    74.99999999999999,
+    105.0,
+    135.0,
+    165.0
+  ],
+  "fb5a_reaches": 85,
+  "inh_mean": 91.07058823529412,
+  "inh_std": 25.74800425631841,
+  "inh_cv": 0.2827257927641215,
+  "inh_corr_cos_bearing": 0.01572162789318573,
+  "inh_corr_sin_bearing": -0.03628557191165749,
+  "loop_profile": [
+    881.8882030178327,
+    876.3162291169451,
+    909.6192250372578,
+    863.7938388625593,
+    902.3243902439025,
+    866.3518886679921
+  ],
+  "loop_modulation": 0.051874920282313455,
+  "ff_total_syn": 878.0,
+  "ff_offdiag_mean": 0.12296918767507002,
+  "hdelta_profile": [
+    37.80521262002743,
+    16.804295942720763,
+    14.070044709388972,
+    50.026856240126385,
+    79.66260162601625,
+    94.66600397614314
+  ],
+  "hdelta_near": 37.80521262002743,
+  "hdelta_far": 94.66600397614314,
+  "hdelta_far_near_ratio": 2.504046331589563,
+  "vdelta_profile": [
+    4.523319615912208,
+    2.556085918854415,
+    1.421758569299553,
+    0.4439178515007899,
+    0.27235772357723576,
+    0.06660039761431412
+  ],
+  "vdelta_peak_frac_of_hdelta": 0.04778187972370877,
+  "thresholds": {
+    "uniform_max_modulation": 0.15,
+    "ff_negligible_max": 1.0,
+    "antilocal_min_ratio": 1.5,
+    "bearing_corr_max": 0.15
+  }
+}

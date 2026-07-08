@@ -1,0 +1,26 @@
+{
+  "source": "FB5A-silencing prediction: sensitivity over gains (power/g_inh/sigma), \u00a73.5",
+  "n_gain_combos": 27,
+  "committed_gains": {
+    "power": 2.0,
+    "g_inh": 5.0,
+    "sigma": 0.05
+  },
+  "mush_shape_robust_frac": 0.2962962962962963,
+  "disinhibition_robust_frac": 1.0,
+  "amplitude_ratio_off_on": {
+    "min": 13.23845441242067,
+    "median": 38.8512320766435,
+    "max": 111.72461810359053,
+    "note": "direction robust (all>1); MAGNITUDE is a model artifact, not a claim"
+  },
+  "shape_preserved_dconc": {
+    "median": 0.028416583294102016,
+    "max": 0.06357605316926473
+  },
+  "thresholds": {
+    "mush_max_robust": 0.6,
+    "disinhib_min_robust": 0.99,
+    "shape_preserved_max_dconc": 0.15
+  }
+}

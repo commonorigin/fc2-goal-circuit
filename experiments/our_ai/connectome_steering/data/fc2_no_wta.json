@@ -1,0 +1,46 @@
+{
+  "source": "No-within-FC2-WTA bistability demonstration (C4/C5), \u00a73.5; real FlyWire wiring vs idealized controls",
+  "n_fc2": 85,
+  "sep_deg": 120.0,
+  "trials": 20,
+  "basin_gap_deg": {
+    "real_subtractive": 0.0,
+    "real_divisive": 1.0658141036401503e-14,
+    "real_divisive_noise": -0.27199716944312513,
+    "real_hdelta_antilocal": 24.40382693460322,
+    "real_vdelta_local_excit": 2.0527540729456533,
+    "ctrl_neg_global_only": 4.6570753226864425e-15,
+    "ctrl_pos_local_excit": 114.13445167223253,
+    "ctrl_pos_local_excit_realpsi": 78.23226548459272
+  },
+  "divisive_basin_gap_vs_asym": {
+    "0.00": 1.0658141036401503e-14,
+    "0.10": 2.3092638912203256e-14,
+    "0.20": 2.3092638912203256e-14
+  },
+  "hdelta_reference_gain": 3.0,
+  "hdelta_basin_gap_vs_gain": {
+    "2.0": 0.0019641031406951726,
+    "3.0": 24.36066938061447,
+    "4.0": 26.636856554717482,
+    "5.0": 28.94928782630927,
+    "6.0": 31.805381301742813,
+    "8.0": 38.403430892812395,
+    "10.0": 32.319321604158574
+  },
+  "hdelta_latch_crossing_gain": 6.0,
+  "vdelta_basin_gap_vs_gain": {
+    "2.0": 1.1463794756651282,
+    "3.0": 2.0527540729456533,
+    "4.0": -1.4485253715428215,
+    "5.0": 0.0,
+    "6.0": 0.0,
+    "8.0": 0.0,
+    "10.0": 0.0
+  },
+  "vdelta_latch_crossing_gain": null,
+  "thresholds": {
+    "max_gap_deg": 30.0,
+    "min_wta_gap_deg": 60.0
+  }
+}
