@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "fc2-goal-circuit: code and data for the FC2 goal-circuit paper"
+authors:
+  - family-names: "Nanni"
+    given-names: "Gioele"
+  - family-names: "Lee"
+    given-names: "Christopher"
+repository-code: "https://github.com/commonorigin/fc2-goal-circuit"
+license: MIT
+preferred-citation:
+  type: article
+  title: "How the fly holds a single goal: normalization, not selection, in Drosophila FC2"
+  authors:
+    - family-names: "Nanni"
+      given-names: "Gioele"
+    - family-names: "Lee"
+      given-names: "Christopher"
+  year: 2026
